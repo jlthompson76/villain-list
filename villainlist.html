@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>DOM Exercise</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="list-img" src="pow.png" alt="list-logo">        
+        <h1>Villain Naughty List</h1>
+        <img class="list-img" src="pow.png" alt="list-logo">
+    </div>
+
+    <div class="main-content">
+        <p>Let's start kicking butt and taking names</p>
+        <h2>Wanted <span id="wanted-count"></span>:</h2>
+        <ul id="wanted-list">
+    
+        </ul>
+        <hr>
+        <h2>Caught <span id="caught-count"></span>:</h2>
+        <ul id="caught-list">
+    
+        </ul>
+        <hr>
+
+        <div class="total-area display-none">
+            <p><span id="item-count"></span></p>
+        </div>
+    
+        <div class="btn-controls">
+            <input type="button" class="" id="btn-total" value="GET TOTAL">
+            <br>
+            <br>
+
+            <input type="text" id="txt-villain">
+            <br>
+            <input type="button" class="" id="btn-add" value="ADD villain">
+
+            <input type="button" class="" id="btn-caught" value="CAUGHT villain">
+
+            <input type="button" class="" id="btn-status" value="GET status">
+        </div>
+    </div>
+
+    <script src="solution.js"></script>
+</body>
+
+</html>
